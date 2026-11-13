@@ -1,5 +1,10 @@
 # ai-audit-trail — Public Demo
 
+[![Verified](https://img.shields.io/badge/ai--audit--verify-VALID-brightgreen)](https://github.com/apumiaaifund/ai-audit-trail-demo/releases/tag/v0.1.0-demo)
+[![Tests](https://img.shields.io/badge/tests-23%20passed-brightgreen)](https://github.com/apumiaaifund/ai-audit-trail)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Article%2012-blue)](https://github.com/apumiaaifund/ai-audit-trail-demo/releases/tag/v0.1.0-demo)
+
+
 **Offline-verifiable audit trail for AI systems** — AAT + AWR/2 (W3C VC 2.0), EU AI Act Article 12 evidence pack.
 
 Публичная витрина. Полный исходный код доступен по запросу (Private репозиторий + ZIP).
