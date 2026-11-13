@@ -35,8 +35,34 @@ EU AI Act Article 12 (record-keeping) обязателен для high-risk AI �
 
 | Файл | Что это |
 |---|---|
-| demo/aat_bundle.json | Пример AAT-bundle: 8 записей, Merkle-proofs, Ed25519 anchor |
+| demo/aat_bundle.json | Пример AAT-bundle: 10 записей (4 inference + 3 gate + 2 identity + 1 tombstone), Merkle-proofs, Ed25519 anchor |
 | demo/evidence.html | EU AI Act Article 12 evidence pack (coverage + events) |
+
+
+## Identity (Ed25519 + sparse Merkle non-revocation)
+
+Бонус к audit trail: слой identity для AI-агентов. Кто именно действовал — проверяемо офлайн.
+
+- **Ed25519 подписи** — non-repudiation: issuer подписывает приватным, verifier проверяет публичным
+- **Sparse Merkle Tree** — настоящее доказательство неотзыва (32 sibling-хеша, verifier сам пересчитывает путь)
+- **Интеграция в runtime_gate** — credential проверяется ДО записи в trail
+- **DENY при revoke** — отозванный credential → disposition=deny, identity_reason=revoked
+
+### Демонстрация (из demo/aat_bundle.json, 10 записей)
+
+- 4 inference — AI-запросы
+- 3 gate (read/write/destructive) — политика pre-execution
+- **2 identity** — valid credential → allow, revoked credential → deny
+- 1 tombstone — GDPR Art. 17 (append-only удаление)
+
+### Проверка
+
+```bash
+ai-audit-verify demo/aat_bundle.json
+# VALID
+```
+
+Откройте demo/evidence.html — таблица из 10 строк, колонка Proof = OK.
 
 ## Ключевые свойства
 
