@@ -80,7 +80,7 @@ ai-audit-verify demo/aat_bundle.json
 | Verifier (open-core) | Free | Аудиторы, разработчики | CLI, merkle.py, verifier.py, conformance suite |
 | Team / Pilot | USD 500-1500/мес | 1 система, до 100k событий | Managed RFC 3161, evidence pack HTML/PDF |
 | Business | USD 3000-5000/мес | до 5 систем, 1M событий | + SSO/RBAC, retention, customer-branded portal |
-| Enterprise / Sovereign | USD 50K-150K/год | Air-gapped, госсектор | Air-gapped verifier, custom TSA/witness, audit support |
+| Custom pilot | USD 15-30K (6-8 недель) | Regulated-контур | Интеграция под ваш сценарий, TSA-настройка, audit support |
 
 Для покупки и вопросов: apumiaaifund@gmail.com
 
