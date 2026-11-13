@@ -28,7 +28,7 @@ EU AI Act Article 12 (record-keeping) обязателен для high-risk AI �
 | runtime_gate.py | Pre-execution gate (allow/simulate/deny), запись до выполнения |
 | otel_bridge.py | OpenTelemetry GenAI semantic conventions |
 | verifier.py | Независимый верификатор Merkle + RFC 3161 + Ed25519 |
-| vc_adapter.py | W3C VC 2.0 receipts через awr (опционально) |
+| vc_adapter.py | W3C VC 2.0 receipts через awr — **[WIP]** (awr не в PyPI, тесты skip) |
 | cli.py | ai-audit-verify — offline verifier |
 
 ## Что в demo/
