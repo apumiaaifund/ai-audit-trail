@@ -1,5 +1,8 @@
 # ai-audit-trail — Public Demo
 
+<p align="center"><img src="assets/logo.svg" alt="logo" width="400"></p>
+
+
 ## За 30 секунд
 
 **Что это:** Audit trail с Ed25519 подписями и Merkle-деревом. Каждое решение LLM подписано, любая правка обнаруживается. Witness в GitHub Actions каждый час.
