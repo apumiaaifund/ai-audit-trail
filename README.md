@@ -1,5 +1,19 @@
 # ai-audit-trail — Public Demo
 
+## За 30 секунд
+
+**Что это:** Audit trail с Ed25519 подписями и Merkle-деревом. Каждое решение LLM подписано, любая правка обнаруживается. Witness в GitHub Actions каждый час.
+
+**Кому:** Банки, страховые, regulated industries — доказать регулятору, что модель видела и решила.
+
+**Что доказано:** 37 passed + 2 skipped = 39 тестов. Ed25519 + Merkle + witness работают.
+
+**Чего не доказано (честно):** Нет production-развёртывания, witness — только hourly в CI.
+
+---
+
+
+
 [![Verified](https://img.shields.io/badge/ai--audit--verify-VALID-brightgreen)](https://github.com/apumiaaifund/ai-audit-trail-demo/releases/tag/v0.1.0-demo)
 [![Tests](https://img.shields.io/badge/tests-23%20passed-brightgreen)](https://github.com/apumiaaifund/ai-audit-trail)
 [![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Article%2012-blue)](https://github.com/apumiaaifund/ai-audit-trail-demo/releases/tag/v0.1.0-demo)
