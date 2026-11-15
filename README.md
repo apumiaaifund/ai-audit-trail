@@ -1,3 +1,5 @@
+![PROVEN](https://img.shields.io/badge/PROVEN-37%20passed%20+%202%20skipped-brightgreen)
+
 
 <p align="center"><img src="assets/logo.svg" alt="logo" width="400"></p>
 
