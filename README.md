@@ -1,26 +1,40 @@
-![PROVEN](https://img.shields.io/badge/PROVEN-37%20passed%20+%202%20skipped-brightgreen)
-
-
 <p align="center"><img src="assets/logo.svg" alt="logo" width="400"></p>
 
-<p align="center">
-  <img src="docs/logo.png" alt="ai-audit-trail-demo" width="200"/>
-</p>
+![PROVEN](https://img.shields.io/badge/PROVEN-37%20passed-brightgreen)
 
-<h1 align="center">ai-audit-trail-demo</h1>
+# AI Audit Trail
 
-<p align="center">
-  <b>Public demo / archive: APUM AI Fund — воспроизводимая финансовая аналитика</b><br/>
-  APUM AI Fund — воспроизводимая финансовая аналитика
-</p>
+**Ed25519 + Merkle + witness. Каждое решение LLM подписано, любая правка обнаруживается.**
 
-## О продукте
-Архивный демо-проект APUM AI Fund. См. основные флагманские продукты в профиле организации.
+---
 
-## Выгоды
-Изучение истории разработки и эволюции архитектуры APUMIA.
+## За 30 секунд
 
+**Что это:** Audit trail с Ed25519 подписями и Merkle-деревом. Каждое решение LLM подписано, любая правка обнаруживается. Witness в GitHub Actions каждый час.
 
-## Связанные продукты
-Этот репозиторий является частью экосистемы [APUM AI Fund](https://github.com/apumiaaifund).
-Флагманский продукт: [apumia_credit](https://github.com/apumiaaifund/apumia_credit) (PROVEN 8/8).
+**Кому:** Банки, страховые, regulated industries — доказать регулятору, что модель видела и решила.
+
+**Почему сейчас:** Лог чата — не доказательство. Audit trail с Merkle-деревом — доказательство, которое регулятор проверяет без доступа к системе.
+
+**Что доказано:** 37 passed + 2 skipped. Ed25519 + Merkle + hourly witness работают. apumia prove → PROVEN.
+
+**Чего не доказано (честно):** Нет production-развёртывания. Witness — только hourly в CI.
+
+---
+
+## Оффер
+
+По запросу.
+
+**Следующий шаг:** Покажу Merkle-proof вживую — 15 минут.
+
+---
+
+## GitHub
+
+- **Private code:** apumiaaifund/ai-audit-trail
+- **Public demo:** apumiaaifund/ai-audit-trail-demo
+
+## License
+
+MIT
