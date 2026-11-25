@@ -61,3 +61,6 @@ MIT
 > **Контроль архитектуры (`Apumia Blueprint`):** `CLEAN` (`0` циклических зависимостей, контроль сложности McCabe)  
 > **Анализ безопасности (`Bandit / Zero-Trust`):** `0` критических уязвимостей  
 > **Протокол достоверности (`Apumia Hub`):** `_synthetic: false` | `preservation: 100.0%` | `verified: true`
+
+## Commercial Source Code & Private Repo Access
+Instant read-only GitHub access: **[Buy APUMIA AI Audit Trail ($149) ↗](https://lava.topfeca7845-22e0-4075-9d5f-3824873dcf87)**
